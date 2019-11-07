@@ -1296,7 +1296,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1134138745}
   m_Layer: 0
-  m_Name: Bot Center
+  m_Name: Light Center
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1366,7 +1366,7 @@ GameObject:
   - component: {fileID: 1163049553}
   - component: {fileID: 1163049554}
   m_Layer: 0
-  m_Name: Left
+  m_Name: Left light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1631,7 +1631,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2040139762}
   m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: -0.7880771, y: 1.8987602, z: -1.7769995}
+  m_LocalPosition: {x: 0.958, y: 1.8987602, z: -1.7769995}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1134138745}
@@ -1650,7 +1650,7 @@ Light:
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Intensity: 2.12
   m_Range: 10
-  m_SpotAngle: 46
+  m_SpotAngle: 118
   m_InnerSpotAngle: 1
   m_CookieSize: 10
   m_Shadows:
