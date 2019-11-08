@@ -14,6 +14,9 @@ public class NetworkedPlayer : NetworkBehaviour
     public GameObject avatar1;
     public GameObject avatar2;
 
+    public GameObject avatarJudge;
+    public GameObject avatarPlayer;
+
     private void Start()
     {
         if(isLocalPlayer == true)
@@ -36,19 +39,18 @@ public class NetworkedPlayer : NetworkBehaviour
 
     private void Update()
     {
-        avatar1.SetActive(true);
-        /*
         if(playerType == 0)
         {
-            
+            avatarJudge.SetActive(false);
+            avatarPlayer.SetActive(true);
            
 
         } else if(playerType == 1)
         {
-            avatar1.SetActive(false);
-            avatar2.SetActive(true);
+            avatarJudge.SetActive(true);
+            avatarPlayer.SetActive(false);
         }
-        */
+        
     }
 
     //Gets executed on the server
