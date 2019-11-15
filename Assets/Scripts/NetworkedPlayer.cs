@@ -10,9 +10,7 @@ public class NetworkedPlayer : NetworkBehaviour
     public int playerType = 0;
 
     public GameObject playerCamera;
-
-    public GameObject avatar1;
-    public GameObject avatar2;
+    public GameObject judgeCamera;
 
     public GameObject avatarJudge;
     public GameObject avatarPlayer;
@@ -23,6 +21,7 @@ public class NetworkedPlayer : NetworkBehaviour
         {
             //enable the camera
             playerCamera.SetActive(true);
+            judgeCamera.SetActive(true);
         }
     }
 
@@ -43,13 +42,13 @@ public class NetworkedPlayer : NetworkBehaviour
         {
             avatarJudge.SetActive(false);
             avatarPlayer.SetActive(true);
-           
 
         } else if(playerType == 1)
         {
             avatarJudge.SetActive(true);
             avatarPlayer.SetActive(false);
-        }
+        }        
+       
         
     }
 
