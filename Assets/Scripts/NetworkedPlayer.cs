@@ -48,7 +48,8 @@ public class NetworkedPlayer : NetworkBehaviour
     public override void OnStartClient()
     {
         base.OnStartClient();
-        if(isClientOnly)
+
+        if (isClientOnly)
         {
             playerType = 1;
         }
