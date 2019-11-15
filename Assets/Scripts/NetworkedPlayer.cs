@@ -84,8 +84,6 @@ public class NetworkedPlayer : NetworkBehaviour
             avatarJudge.SetActive(true);
             avatarPlayer.SetActive(false);
         }        
-       
-        
     }
 
     //Gets executed on the server
