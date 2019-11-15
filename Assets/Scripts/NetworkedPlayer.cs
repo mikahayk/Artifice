@@ -48,6 +48,11 @@ public class NetworkedPlayer : NetworkBehaviour
     public override void OnStartClient()
     {
         base.OnStartClient();
+        if(isClientOnly)
+        {
+            playerType = 1;
+        }
+       
         Debug.Log("isserver" + isServer);  // is this server machine
         Debug.Log("isserver only " + isServerOnly); // is this machine act as server only
         Debug.Log("is client" + isClient);
