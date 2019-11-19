@@ -32,9 +32,24 @@ namespace Mirror
         /// </summary>
         public int offsetY;
 
+
+        public bool isServer = false;
+
         void Awake()
         {
             manager = GetComponent<NetworkManager>();
+        }
+
+        private void Start()
+        {
+            if (isServer)
+            {
+                manager.StartHost();
+            }
+            else
+            {
+                manager.StartClient();
+            }
         }
 
         void OnGUI()
