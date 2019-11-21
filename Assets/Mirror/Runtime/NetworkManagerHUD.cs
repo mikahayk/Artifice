@@ -44,7 +44,7 @@ namespace Mirror
         {
             if (isServer)
             {
-                manager.StartHost();
+                manager.StartServer();
             }
             else
             {
