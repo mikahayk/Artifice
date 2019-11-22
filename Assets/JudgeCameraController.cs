@@ -20,4 +20,9 @@ public class JudgeCameraController : NetworkBehaviour
         }
     }
 
+    public override void OnStartServer()
+    {
+
+    }
+
 }

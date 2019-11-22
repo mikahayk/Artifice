@@ -5,9 +5,6 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: Assets/Scenes/Demo - Judge.unity
-    guid: f13b443bc1cc04126b4d4e726c396d05
   - enabled: 1
     path: Assets/Scenes/Main.unity
     guid: 784463903e0b449debe281836bbb3912
