@@ -6,11 +6,14 @@ using Mirror;
 public class NetworkedPlayer : NetworkBehaviour
 {
 
+
+
+
+
     [SyncVar]
     public int playerType = 0;
 
     public GameObject playerCamera;
-
     public GameObject avatarPlayer;
 
     public GameObject leftController;
@@ -20,6 +23,26 @@ public class NetworkedPlayer : NetworkBehaviour
     public GameObject rightIK;
     public GameObject headIK;
 
+    public GameObject judgeUI;
+    public GameObject actorUI;
+
+    /*
+        CLIENT = ACTOR
+        SERVER = JUDGE
+    */
+
+    private bool IsJudge()
+    {
+        return isServer ? true : false;
+    }
+
+    private bool IsActor()
+    {
+        return isClient ? true : false;
+    }
+
+
+
     private void Start()
     {
         if(isLocalPlayer == true)
@@ -27,41 +50,53 @@ public class NetworkedPlayer : NetworkBehaviour
             playerCamera.SetActive(true);       
         }
 
+
+
     }
 
      // when connection established
      public override void OnStartServer()
      {
-         base.OnStartServer();
-         Debug.Log("on start server");
-         Debug.Log("isserver" + isServer);
+        /* JUDGE */
+        base.OnStartServer();
+        Debug.Log("on start server");
+        Debug.Log("isserver" + isServer);
 
-         if (isServer)
-         {
-             Debug.Log("net id" + netId);
-         }
+        if (isServer)
+        {
+            Debug.Log("net id" + netId);
+        }
 
 
 
-         Debug.Log("On start server end");
+        // Enable UI directions
+        judgeUI.SetActive(true);
+
+
+
+        Debug.Log("On start server end");
      }
 
      public override void OnStartLocalPlayer()
      {
          base.OnStartLocalPlayer();
 
-
          Debug.Log("On start Player");
      }
 
      public override void OnStartClient()
      {
-         base.OnStartClient();
+        /* ACTOR */
+        base.OnStartClient();
 
-         Debug.Log("isserver" + isServer);  // is this server machine
-         Debug.Log("isserver only " + isServerOnly); // is this machine act as server only
-         Debug.Log("is client" + isClient);
-         Debug.Log("is client only" + isClientOnly);
+        // Enable UI directions
+        actorUI.SetActive(true);
+
+
+        Debug.Log("isserver" + isServer);  // is this server machine
+        Debug.Log("isserver only " + isServerOnly); // is this machine act as server only
+        Debug.Log("is client" + isClient);
+        Debug.Log("is client only" + isClientOnly);
      }
 
 
@@ -83,8 +118,6 @@ public class NetworkedPlayer : NetworkBehaviour
             leftIK.transform.position = leftController.transform.position;
             rightIK.transform.position = rightController.transform.position;
             headIK.transform.position = playerCamera.transform.position;
-
-          
         }
 
     }
