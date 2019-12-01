@@ -13,6 +13,13 @@ public class NetworkedPlayer : NetworkBehaviour
 
     public GameObject avatarPlayer;
 
+    public GameObject leftController;
+    public GameObject rightController;
+
+    public GameObject leftIK;
+    public GameObject rightIK;
+    public GameObject headIK;
+
     private void Start()
     {
         if(isLocalPlayer == true)
@@ -42,6 +49,8 @@ public class NetworkedPlayer : NetworkBehaviour
      public override void OnStartLocalPlayer()
      {
          base.OnStartLocalPlayer();
+
+
          Debug.Log("On start Player");
      }
 
@@ -67,23 +76,18 @@ public class NetworkedPlayer : NetworkBehaviour
          }  
      }
 
-     private void Update()
-     {
+    private void Update()
+    {
+        if (isLocalPlayer == true)
+        {
+            leftIK.transform.position = leftController.transform.position;
+            rightIK.transform.position = rightController.transform.position;
+            headIK.transform.position = playerCamera.transform.position;
 
-
-
-         /*
-         if(playerType == 0)
-         {
-             avatarJudge.SetActive(false);
-             avatarPlayer.SetActive(true);
-
-         } else if(playerType == 1)
-         {
-
-         }
-         */
+          
         }
+
+    }
 
     //Gets executed on the server
     [Command]
