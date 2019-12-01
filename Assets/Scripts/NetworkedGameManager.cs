@@ -36,6 +36,9 @@ public class NetworkedGameManager : MonoBehaviour
         bot1.GetComponent<Animator>().enabled = false;
         bot2.GetComponent<Animator>().enabled = false;
 
+        botPlayer.GetComponent<NetworkedPlayer>().leftController.SetActive(false);
+        botPlayer.GetComponent<NetworkedPlayer>().rightController.SetActive(false);
+
 
     }
 }

@@ -419,6 +419,7 @@ GameObject:
   - component: {fileID: 1942664086}
   - component: {fileID: 1942664088}
   - component: {fileID: 1942664087}
+  - component: {fileID: 1942664089}
   m_Layer: 5
   m_Name: Countdown
   m_TagString: Untagged
@@ -442,7 +443,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.049999714, y: -1.07}
+  m_AnchoredPosition: {x: 5.17, y: -1.07}
   m_SizeDelta: {x: 130, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1942664088
@@ -485,6 +486,20 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: COUNTDOWN
+--- !u!114 &1942664089
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1942664085}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6bf73debfc6564e4fb002749ab25f0c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timeLeft: 5
+  countdown: {fileID: 1942664087}
 --- !u!1 &103087467367367818
 GameObject:
   m_ObjectHideFlags: 0
@@ -952,7 +967,7 @@ MonoBehaviour:
   serverOnly: 0
   localPlayerAuthority: 1
   m_AssetId: 
-  m_SceneId: 4158138092
+  m_SceneId: 491701893
 --- !u!114 &2590251156555302120
 MonoBehaviour:
   m_ObjectHideFlags: 0
