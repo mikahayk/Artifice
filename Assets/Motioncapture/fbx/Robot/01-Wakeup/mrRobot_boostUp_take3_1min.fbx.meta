@@ -1,0 +1,382 @@
+fileFormatVersion: 2
+guid: 105594d5961a24f7db2f539ce35e1a1f
+ModelImporter:
+  serializedVersion: 26
+  internalIDToNameTable:
+  - first:
+      74: -2634718730349896390
+    second: mrRobot_boostUp_take3_1min
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: "\nClip 'mrRobot_boostUp_take3_1min' has import animation
+      warnings that might lower retargeting quality:\nNote: Activate translation DOF
+      on avatar to improve retargeting quality.\n\t'HAYYYYK_Spine1' has translation
+      animation that will be discarded.\n\t'HAYYYYK_Head' has translation animation
+      that will be discarded.\n\t'HAYYYYK_LeftHand' has translation animation that
+      will be discarded.\n\t'HAYYYYK_RightHand' has translation animation that will
+      be discarded.\n"
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 3
+    human:
+    - boneName: HAYYYYK_Hips
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: HAYYYYK_LeftUpLeg
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: HAYYYYK_RightUpLeg
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: HAYYYYK_LeftLeg
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: HAYYYYK_RightLeg
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: HAYYYYK_LeftFoot
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: HAYYYYK_RightFoot
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: HAYYYYK_Spine
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: HAYYYYK_Spine1
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: HAYYYYK_Neck
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: HAYYYYK_Head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: HAYYYYK_LeftShoulder
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: HAYYYYK_RightShoulder
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: HAYYYYK_LeftArm
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: HAYYYYK_RightArm
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: HAYYYYK_LeftForeArm
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: HAYYYYK_RightForeArm
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: HAYYYYK_LeftHand
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: HAYYYYK_RightHand
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: HAYYYYK_LeftToeBase
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: HAYYYYK_RightToeBase
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: mrRobot_boostUp_take3_1min(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HAYYYYK_Hips
+      parentName: mrRobot_boostUp_take3_1min(Clone)
+      position: {x: 0, y: 0.9577734, z: 0.15124276}
+      rotation: {x: 0.027821908, y: 0.013014547, z: -0.003591814, w: 0.9995218}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HAYYYYK_Spine
+      parentName: HAYYYYK_Hips
+      position: {x: -0, y: 0.08287431, z: 0}
+      rotation: {x: -0.0133782, y: -0.031131234, z: 0.0068179765, w: 0.9994025}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HAYYYYK_Spine1
+      parentName: HAYYYYK_Spine
+      position: {x: 0.00000008940697, y: 0.22549544, z: 0}
+      rotation: {x: -0.036397435, y: -0.010359077, z: -0.0035446656, w: 0.9992774}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HAYYYYK_Neck
+      parentName: HAYYYYK_Spine1
+      position: {x: -0, y: 0.24944557, z: 0}
+      rotation: {x: 0.17823264, y: -0.03739819, z: 0.021603025, w: 0.9830401}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HAYYYYK_Head
+      parentName: HAYYYYK_Neck
+      position: {x: -0.000000059604645, y: 0.15428315, z: 0.019907475}
+      rotation: {x: -0.06792345, y: -0.031766444, z: -0.026173517, w: 0.9968412}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HAYYYYK_LeftShoulder
+      parentName: HAYYYYK_Spine1
+      position: {x: -0.04085511, y: 0.20563094, z: -0.0024467856}
+      rotation: {x: 0.007277314, y: 0.02610195, z: -0.13046828, w: 0.99108213}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HAYYYYK_LeftArm
+      parentName: HAYYYYK_LeftShoulder
+      position: {x: -0.13286945, y: 0, z: 0}
+      rotation: {x: -0.0058640693, y: 0.01022965, z: 0.17029516, w: 0.9853226}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HAYYYYK_LeftForeArm
+      parentName: HAYYYYK_LeftArm
+      position: {x: -0.30362913, y: 0, z: 0}
+      rotation: {x: 0.10040996, y: 0.022827955, z: -0.015290939, w: 0.99456674}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HAYYYYK_LeftHand
+      parentName: HAYYYYK_LeftForeArm
+      position: {x: -0.27786303, y: -0.00000011920929, z: -0.000000014901161}
+      rotation: {x: 0.10111426, y: 0.02442083, z: 0.025249284, w: 0.9942545}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HAYYYYK_RightShoulder
+      parentName: HAYYYYK_Spine1
+      position: {x: 0.03992196, y: 0.20563094, z: -0.0024467856}
+      rotation: {x: -0.011242486, y: 0.010991451, z: 0.13651177, w: 0.9905137}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HAYYYYK_RightArm
+      parentName: HAYYYYK_RightShoulder
+      position: {x: 0.13286945, y: 0, z: 0}
+      rotation: {x: 0.04002181, y: -0.016358608, z: -0.15762903, w: 0.98655146}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HAYYYYK_RightForeArm
+      parentName: HAYYYYK_RightArm
+      position: {x: 0.30362913, y: 0, z: 0}
+      rotation: {x: 0.007945931, y: -0.0095460415, z: 0.02281061, w: 0.99966264}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HAYYYYK_RightHand
+      parentName: HAYYYYK_RightForeArm
+      position: {x: 0.27694818, y: -0.00000011920929, z: 0}
+      rotation: {x: 0.008346332, y: -0.029176682, z: -0.025248973, w: 0.9992205}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HAYYYYK_LeftUpLeg
+      parentName: HAYYYYK_Hips
+      position: {x: -0.10106625, y: 0, z: 0}
+      rotation: {x: 0.05231933, y: -0.04759488, z: -0.022981731, w: 0.9972308}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HAYYYYK_LeftLeg
+      parentName: HAYYYYK_LeftUpLeg
+      position: {x: -0, y: -0.47118175, z: 0}
+      rotation: {x: 0.039053757, y: -0.041806042, z: 0.08000227, w: 0.99515164}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HAYYYYK_LeftFoot
+      parentName: HAYYYYK_LeftLeg
+      position: {x: -0, y: -0.42091373, z: 0}
+      rotation: {x: -0.09306778, y: -0.11260278, z: -0.0015620552, w: 0.98927075}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HAYYYYK_LeftToeBase
+      parentName: HAYYYYK_LeftFoot
+      position: {x: -0, y: -0.06569306, z: 0.15159938}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HAYYYYK_RightUpLeg
+      parentName: HAYYYYK_Hips
+      position: {x: 0.10106625, y: 0, z: 0}
+      rotation: {x: 0.014956393, y: 0.0033020684, z: 0.07290853, w: 0.997221}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HAYYYYK_RightLeg
+      parentName: HAYYYYK_RightUpLeg
+      position: {x: -0, y: -0.47118175, z: 0}
+      rotation: {x: 0.03859446, y: 0.022931872, z: -0.07871467, w: 0.99588585}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HAYYYYK_RightFoot
+      parentName: HAYYYYK_RightLeg
+      position: {x: -0, y: -0.42091373, z: 0}
+      rotation: {x: -0.034887865, y: 0.028660301, z: -0.0064352066, w: 0.9989595}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HAYYYYK_RightToeBase
+      parentName: HAYYYYK_RightFoot
+      position: {x: -0, y: -0.06569306, z: 0.15159938}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 3
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
