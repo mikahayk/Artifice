@@ -6,9 +6,9 @@ using Mirror;
 public class NetworkedPlayer : NetworkBehaviour
 {
 
-
-
-
+    private NetworkedGameManager myController;
+    
+    
 
     [SyncVar]
     public int playerType = 0;
@@ -25,6 +25,7 @@ public class NetworkedPlayer : NetworkBehaviour
 
     public GameObject judgeUI;
     public GameObject actorUI;
+
 
     /*
         CLIENT = ACTOR
@@ -45,7 +46,10 @@ public class NetworkedPlayer : NetworkBehaviour
 
     private void Start()
     {
-        if(isLocalPlayer == true)
+        myController = FindObjectOfType<NetworkedGameManager>();
+        myController.Play();
+
+        if (isLocalPlayer == true)
         {
             playerCamera.SetActive(true);       
         }

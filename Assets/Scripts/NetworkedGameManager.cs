@@ -5,6 +5,9 @@ using Mirror;
 
 public class NetworkedGameManager : MonoBehaviour
 {
+    public GameObject bot1;
+    public GameObject bot2;
+    public GameObject botPlayer;
  
     public void UpdatePlayerType()
     {
@@ -17,5 +20,22 @@ public class NetworkedGameManager : MonoBehaviour
             np.updateLocalPlayerType(1);
         }
      
+    }
+
+    public void Play()
+    {
+        Debug.Log("GAME STARTED");
+
+
+
+    }
+
+    public void Pause()
+    {
+        Debug.Log("PAUSE");
+        bot1.GetComponent<Animator>().enabled = false;
+        bot2.GetComponent<Animator>().enabled = false;
+
+
     }
 }
