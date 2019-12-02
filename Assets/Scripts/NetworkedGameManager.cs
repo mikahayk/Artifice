@@ -26,7 +26,7 @@ public class NetworkedGameManager : MonoBehaviour
     {
         Debug.Log("GAME STARTED");
 
-        //GameObject.Find("Countdown").GetComponent<CountdownController>().enabled = true;
+        GameObject.Find("Countdown").GetComponent<CountdownController>().enabled = true;
 
 
         // Enable the bots

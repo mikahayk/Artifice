@@ -74,6 +74,7 @@ public class NetworkedPlayer : NetworkBehaviour
 
 
         // Enable UI directions
+        actorUI.SetActive(false);
         judgeUI.SetActive(true);
 
 
@@ -98,6 +99,7 @@ public class NetworkedPlayer : NetworkBehaviour
 
 
         // Enable UI directions
+        judgeUI.SetActive(false);
         actorUI.SetActive(true);
 
 
