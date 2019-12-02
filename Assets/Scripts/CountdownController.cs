@@ -10,12 +10,16 @@ public class CountdownController : MonoBehaviour
     public int timeLeft = 60;
     public Text countdown;
     private NetworkedGameManager myController;
+
+
     void Start()
     {
         myController = FindObjectOfType<NetworkedGameManager>();
         StartCoroutine("LoseTime");
         Time.timeScale = 1;
     }
+
+
     void Update()
     {
         

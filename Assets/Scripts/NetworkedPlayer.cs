@@ -51,7 +51,7 @@ public class NetworkedPlayer : NetworkBehaviour
 
         if (isLocalPlayer == true)
         {
-            playerCamera.SetActive(true);       
+           
         }
 
 
@@ -83,15 +83,19 @@ public class NetworkedPlayer : NetworkBehaviour
 
      public override void OnStartLocalPlayer()
      {
-         base.OnStartLocalPlayer();
+        base.OnStartLocalPlayer();
 
-         Debug.Log("On start Player");
+        playerCamera.SetActive(true);
+
+
+        Debug.Log("On start Player");
      }
 
      public override void OnStartClient()
      {
         /* ACTOR */
         base.OnStartClient();
+
 
         // Enable UI directions
         actorUI.SetActive(true);

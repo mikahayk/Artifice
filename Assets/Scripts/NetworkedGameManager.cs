@@ -26,6 +26,20 @@ public class NetworkedGameManager : MonoBehaviour
     {
         Debug.Log("GAME STARTED");
 
+        //GameObject.Find("Countdown").GetComponent<CountdownController>().enabled = true;
+
+
+        // Enable the bots
+        bot1.SetActive(true);
+        bot2.SetActive(true);
+
+        // Start animating the bots
+        bot1.GetComponent<Animator>().enabled = true;
+        bot2.GetComponent<Animator>().enabled = true;
+
+        // Enable actor controllers
+        botPlayer.GetComponent<NetworkedPlayer>().leftController.SetActive(true);
+        botPlayer.GetComponent<NetworkedPlayer>().rightController.SetActive(true);
 
 
     }
@@ -33,9 +47,13 @@ public class NetworkedGameManager : MonoBehaviour
     public void Pause()
     {
         Debug.Log("PAUSE");
+
+        // Stop animating the bots
         bot1.GetComponent<Animator>().enabled = false;
         bot2.GetComponent<Animator>().enabled = false;
 
+
+        // Disable actor controllers
         botPlayer.GetComponent<NetworkedPlayer>().leftController.SetActive(false);
         botPlayer.GetComponent<NetworkedPlayer>().rightController.SetActive(false);
 
