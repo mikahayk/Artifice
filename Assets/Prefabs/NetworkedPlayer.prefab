@@ -18,7 +18,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &354251679
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1058,8 +1058,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   serverOnly: 0
   localPlayerAuthority: 1
-  m_AssetId: 
-  m_SceneId: 3873570700
+  m_AssetId: b9dd1d2eaf6964c049fe9567552f8e20
+  m_SceneId: 0
 --- !u!114 &2590251156555302120
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1082,8 +1082,15 @@ MonoBehaviour:
   leftIK: {fileID: 8960188640003376555}
   rightIK: {fileID: 6149176020431356626}
   headIK: {fileID: 1881610906268719839}
-  judgeUI: {fileID: 1387713208}
-  actorUI: {fileID: 1003715333}
+  judgeUI: {fileID: 3294783924440853845, guid: 43acb6c08dd7e46049c2f59ca7bec15d, type: 3}
+  actorUI: {fileID: 3108439424335660772, guid: 23a6d23ec17c84337bf245dde714831d, type: 3}
+  bot1Parent: {fileID: 790909249623139162, guid: 27b509f24788840f1b39f2250ec8c5ea,
+    type: 3}
+  bot2Parent: {fileID: 471079344086646315, guid: 4b12537c41e224945be2b9a27e74243b,
+    type: 3}
+  botPlayer: {fileID: 1796476842175578066}
+  allAvatars: []
+  randNum: 0
 --- !u!114 &2590251156555302121
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3111,7 +3118,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: OVRPlayerController
       objectReference: {fileID: 0}
-    - target: {fileID: 100012, guid: ce816f2e6abb0504092c23ed9b970dfd, type: 3}
+    - target: {fileID: 5857266059265260926, guid: ce816f2e6abb0504092c23ed9b970dfd,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4974701436773633490, guid: ce816f2e6abb0504092c23ed9b970dfd,
+        type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
@@ -3177,6 +3190,10 @@ PrefabInstance:
     - target: {fileID: 4998406982612096378, guid: ce816f2e6abb0504092c23ed9b970dfd,
         type: 3}
       propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 100012, guid: ce816f2e6abb0504092c23ed9b970dfd, type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []

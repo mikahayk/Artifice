@@ -9,12 +9,16 @@ public class CountdownController : MonoBehaviour
 {
     public int timeLeft = 60;
     public Text countdown;
-    private NetworkedGameManager myController;
+    private NetworkedPlayer[] players;
 
 
     void Start()
     {
-        myController = FindObjectOfType<NetworkedGameManager>();
+        players = FindObjectsOfType<NetworkedPlayer>();
+        //myController = FindObjectOfType<NetworkedGameManager>();
+        
+
+
         StartCoroutine("LoseTime");
         Time.timeScale = 1;
     }
@@ -42,7 +46,11 @@ public class CountdownController : MonoBehaviour
             timeLeft--;
             if (timeLeft == -1)
             {
-                myController.Pause();
+                foreach (NetworkedPlayer np in players)
+                {
+                    np.Pause();
+                }
+                
             }
         }
 
