@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - Bot
+  - JudgeUI
+  - ActorUI
   layers:
   - Default
   - TransparentFX

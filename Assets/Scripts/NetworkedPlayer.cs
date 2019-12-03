@@ -78,9 +78,7 @@ public class NetworkedPlayer : NetworkBehaviour
     {
         Debug.Log("NetworkedPlayer - START()");
         gameManager = FindObjectOfType<NetworkedGameManager>();
-        
-        //myController.Play();
-
+       
 
         if (isLocalPlayer == true)
         {
@@ -104,7 +102,8 @@ public class NetworkedPlayer : NetworkBehaviour
         }
 
         // Enable UI directions for JUDGE
-        judgeUI.SetActive(true);
+        //judgeUI.SetActive(true);
+        EnableJudgeUI();
 
 
         // Randomize three avatar positions by shuffling allAvatarTypes array
@@ -132,6 +131,9 @@ public class NetworkedPlayer : NetworkBehaviour
         playerCamera.SetActive(true);
 
         // Enable UI directions for ACTOR
+        //DisableJudgeUI();
+
+        DisableJudgeUI();
         judgeUI.SetActive(false);
         Instantiate(actorUI);
 
@@ -168,9 +170,6 @@ public class NetworkedPlayer : NetworkBehaviour
         // Start bots animations
         Play();
 
-
-
-
         Debug.Log("On start Player");
      }
 
@@ -180,6 +179,8 @@ public class NetworkedPlayer : NetworkBehaviour
         base.OnStartClient();
         Debug.Log("On start server end");
 
+        judgeUI.SetActive(false);
+
 
         Debug.Log("isserver" + isServer);  // is this server machine
         Debug.Log("isserver only " + isServerOnly); // is this machine act as server only
@@ -188,7 +189,38 @@ public class NetworkedPlayer : NetworkBehaviour
      }
 
 
+    private void EnableJudgeUI()
+    {
+        foreach (var obj in GameObject.FindGameObjectsWithTag("JudgeUI"))
+        {
+            obj.SetActive(true);
+        }
 
+    }
+
+    private void DisableJudgeUI()
+    {
+        foreach (var obj in GameObject.FindGameObjectsWithTag("JudgeUI"))
+        {
+            obj.SetActive(false);
+        }
+    }
+
+    private void EnableActorUI()
+    {
+        foreach (var obj in GameObject.FindGameObjectsWithTag("ActorUI"))
+        {
+            obj.SetActive(true);
+        }
+    }
+
+    private void DisableActorUI()
+    {
+        foreach (var obj in GameObject.FindGameObjectsWithTag("ActorUI"))
+        {
+            obj.SetActive(false);
+        }
+    }
 
 
 

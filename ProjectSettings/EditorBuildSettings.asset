@@ -5,10 +5,13 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
+    path: Assets/Scenes/Onboarding.unity
+    guid: 10442df888df94ba78482fa749f0c134
+  - enabled: 0
     path: Assets/Scenes/Main.unity
     guid: 784463903e0b449debe281836bbb3912
   - enabled: 0
-    path: Assets/Oculus/VR/Scenes/ControllerModels.unity
-    guid: 39cfe7aa0a2d46c47994d8d0308ec663
+    path: Assets/Scenes/Offboarding.unity
+    guid: ca21d8fa53b2f43b8ba7cb495188c7fc
   m_configObjects: {}
