@@ -9,4 +9,4 @@ Artifice is a social VR experience to distinguish between human and robots. By c
 
 
 <h4>TECHNOLOGIES USED</h4>
-Virtual reality , Social VR , Interative Experience , Motion capture ,Unity
+Virtual Veality , Social VR , Interative Experience , Motion Capture, Unity, C#, Mirror, Inverse Kinematics
