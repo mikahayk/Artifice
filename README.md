@@ -1,7 +1,5 @@
 # Artifice
 <h3> If you can’t tell the difference, does it matter if I'm real or not?</h3>
-by Hayk Mikayelyan, Nick Tanic
-
 ![alt text](https://i.imgur.com/JpxiBFb.jpg)
 
 
@@ -11,3 +9,5 @@ Artifice is a social VR experience to distinguish between human and robots. By c
 
 <h4>TECHNOLOGIES USED</h4>
 Virtual Veality , Social VR , Interative Experience , Motion Capture, Unity, C#, Mirror, Inverse Kinematics
+
+by Hayk Mikayelyan, Nick Tanic
