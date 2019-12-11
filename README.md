@@ -3,7 +3,7 @@
 
 ![alt text](https://i.imgur.com/JpxiBFb.jpg)
 
-Artifice is a social VR experience to distinguish between human and robots. By creating an entertaining turing test VR experience to empower the connection between two strangers. Particularly, prove that human can sense a synergy from another human being. We would lCultivate human authenticity in the new era of raising machines
+Artifice is a social VR experience to distinguish between human and robots. An entertaining Turing test - VR experience to empower the connection between two strangers. Particularly, prove that human can sense a synergy from another human being. We would lCultivate human authenticity in the new era of raising machines
 
 
 <h4>TECHNOLOGIES USED</h4>
