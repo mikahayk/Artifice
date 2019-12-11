@@ -3,7 +3,7 @@
 
 ![poster](https://i.imgur.com/BMo5Vzn.jpg)
 
-Artifice is a social VR experience to distinguish between human and robots. 
+<b>Artifice is a social VR experience to distinguish between human and robots. </b>
 
 <h4>WHY</h4>
 We would like to test if humans can be replaced by machines in the future. Particularly, prove that human can sense the synergy from another human being.
