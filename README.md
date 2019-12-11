@@ -1,7 +1,7 @@
 # Artifice
 <h3> If you can’t tell the difference, does it matter if I'm real or not?</h3>
 
-![poster](https://i.imgur.com/JpxiBFb.jpg)
+![poster](https://i.imgur.com/BMo5Vzn.jpg)
 
 Artifice is a social VR experience to distinguish between human and robots. 
 
