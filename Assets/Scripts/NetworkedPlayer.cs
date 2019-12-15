@@ -229,12 +229,25 @@ public class NetworkedPlayer : NetworkBehaviour
     {
         isRoundOver = false;
 
-        GameObject.Find("Countdown").GetComponent<CountdownController>().enabled = true;
+        GameObject countdown = GameObject.Find("Countdown");
+        countdown.GetComponent<CountdownController>().enabled = true;
+
+        if (isLocalPlayer == true)
+        {
+            Vector3 newpos = countdown.transform.position;
+            newpos.x = -7.47f;
+            countdown.transform.position = newpos;
+
+            Quaternion newpos2 = countdown.transform.rotation;
+            newpos2.y = 180;
+            countdown.transform.rotation = Quaternion.Euler(newpos2.x, newpos2.y, newpos2.z);
+        }
+
 
         spotlight1 = bot1Parent.transform.Find("Spotlight1").gameObject;
         spotlight2 = bot2Parent.transform.Find("Spotlight2").gameObject;
 
-        // Enable the spotlights
+        // Enable the spotlights, commented before Winter Show
         spotlight1.SetActive(true);
         spotlight2.SetActive(true);
 
