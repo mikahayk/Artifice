@@ -29,7 +29,7 @@ public class CountdownController : MonoBehaviour
         
         if (timeLeft <= 0)
         {
-            countdown.text = ("TIME IS UP");
+            countdown.text = ("TAKE OFF THE HEADSET");
         }
         else
         {

@@ -180,6 +180,7 @@ public class NetworkedPlayer : NetworkBehaviour
         Debug.Log("On start server end");
 
         judgeUI.SetActive(false);
+  
 
 
         Debug.Log("isserver" + isServer);  // is this server machine
@@ -239,6 +240,7 @@ public class NetworkedPlayer : NetworkBehaviour
 
 
         foreach(var bot in GameObject.FindGameObjectsWithTag("Bot")) {
+            Debug.Log("-------------------------- ENABLED --------------------------");
             bot.GetComponent<Animator>().enabled = true;
         }
 
@@ -263,9 +265,11 @@ public class NetworkedPlayer : NetworkBehaviour
 
     private void Update()
     {
+        DisableJudgeUI();
         if (isLocalPlayer == true)
         {
-            if(!isRoundOver)
+            
+            if (!isRoundOver)
             {
                 leftIK.transform.position = leftController.transform.position;
                 rightIK.transform.position = rightController.transform.position;
