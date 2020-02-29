@@ -21,19 +21,54 @@ ModelImporter:
     rigImportErrors: 
     rigImportWarnings: 
     animationImportErrors: 
-    animationImportWarnings: 
+    animationImportWarnings: "\nClip 'human_greeting_take1_1min' has import animation
+      warnings that might lower retargeting quality:\nNote: Activate translation DOF
+      on avatar to improve retargeting quality.\n\t'Hayk-new_Spine1' has translation
+      animation that will be discarded.\n\t'Hayk-new_Head' has translation animation
+      that will be discarded.\n\t'Hayk-new_LeftHand' has translation animation that
+      will be discarded.\n\t'Hayk-new_RightHand' has translation animation that will
+      be discarded.\n"
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
     importConstraints: 0
-    animationCompression: 1
+    animationCompression: 3
     animationRotationError: 0.5
     animationPositionError: 0.5
     animationScaleError: 0.5
     animationWrapMode: 0
     extraExposedTransformPaths: []
     extraUserProperties: []
-    clipAnimations: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: human_greeting_take1_1min
+      takeName: human_greeting_take1_1min
+      internalID: 0
+      firstFrame: 198
+      lastFrame: 2085
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     isReadable: 0
   meshes:
     lODScreenPercentages: []
@@ -75,8 +110,286 @@ ModelImporter:
   copyAvatar: 0
   humanDescription:
     serializedVersion: 3
-    human: []
-    skeleton: []
+    human:
+    - boneName: Hayk-new_Hips
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Hayk-new_LeftUpLeg
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Hayk-new_RightUpLeg
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Hayk-new_LeftLeg
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Hayk-new_RightLeg
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Hayk-new_LeftFoot
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Hayk-new_RightFoot
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Hayk-new_Spine
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Hayk-new_Spine1
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Hayk-new_Neck
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Hayk-new_Head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Hayk-new_LeftShoulder
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Hayk-new_RightShoulder
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Hayk-new_LeftArm
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Hayk-new_RightArm
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Hayk-new_LeftForeArm
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Hayk-new_RightForeArm
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Hayk-new_LeftHand
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Hayk-new_RightHand
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Hayk-new_LeftToeBase
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Hayk-new_RightToeBase
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: human_greeting_take1_1min(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Hayk-new_Hips
+      parentName: human_greeting_take1_1min(Clone)
+      position: {x: 0, y: 0.9500478, z: 0.07476132}
+      rotation: {x: 0.0019077349, y: -0.006648623, z: -0.015521827, w: 0.99985564}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Hayk-new_Spine
+      parentName: Hayk-new_Hips
+      position: {x: -0, y: 0.082393855, z: 0}
+      rotation: {x: -0.029953202, y: 0.00036598305, z: 0.021195203, w: 0.99932647}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Hayk-new_Spine1
+      parentName: Hayk-new_Spine
+      position: {x: 0.00000020861626, y: 0.22957563, z: 0.000000018626451}
+      rotation: {x: -0.011722689, y: 0.00011893956, z: -0.014456582, w: 0.9998268}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Hayk-new_Neck
+      parentName: Hayk-new_Spine1
+      position: {x: -0, y: 0.25007284, z: 0}
+      rotation: {x: 0.12495176, y: -0.006292621, z: 0.011537678, w: 0.9920758}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Hayk-new_Head
+      parentName: Hayk-new_Neck
+      position: {x: 0.00000014901161, y: 0.15450084, z: 0.01993543}
+      rotation: {x: -0.004543367, y: -0.003288247, z: -0.01264274, w: 0.9999044}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Hayk-new_LeftShoulder
+      parentName: Hayk-new_Spine1
+      position: {x: -0.04067959, y: 0.20758414, z: -0.0018933043}
+      rotation: {x: -0.0077272872, y: 0.037992217, z: -0.13587952, w: 0.9899665}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Hayk-new_LeftArm
+      parentName: Hayk-new_LeftShoulder
+      position: {x: -0.12865806, y: 0, z: 0}
+      rotation: {x: 0.14930245, y: 0.005419089, z: 0.17911887, w: 0.9724176}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Hayk-new_LeftForeArm
+      parentName: Hayk-new_LeftArm
+      position: {x: -0.3016023, y: 0, z: 0}
+      rotation: {x: -0.00015796714, y: -0.056263335, z: -0.048801243, w: 0.99722266}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Hayk-new_LeftHand
+      parentName: Hayk-new_LeftForeArm
+      position: {x: -0.28847188, y: 0, z: 0.00000011920929}
+      rotation: {x: -0.00031151943, y: 0.06654482, z: 0.10625655, w: 0.9921095}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Hayk-new_RightShoulder
+      parentName: Hayk-new_Spine1
+      position: {x: 0.039670646, y: 0.20758414, z: -0.0018933043}
+      rotation: {x: -0.0050167968, y: -0.0023130546, z: 0.12201531, w: 0.9925129}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Hayk-new_RightArm
+      parentName: Hayk-new_RightShoulder
+      position: {x: 0.12865806, y: 0, z: 0}
+      rotation: {x: 0.056734774, y: -0.015114616, z: -0.14505434, w: 0.9876802}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Hayk-new_RightForeArm
+      parentName: Hayk-new_RightArm
+      position: {x: 0.3016023, y: 0, z: 0}
+      rotation: {x: 0.00058504666, y: -0.0020233172, z: 0.03606591, w: 0.9993472}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Hayk-new_RightHand
+      parentName: Hayk-new_RightForeArm
+      position: {x: 0.28071645, y: 0.00000011920929, z: 0}
+      rotation: {x: 0.00058580365, y: -0.021463593, z: 0.021715378, w: 0.9995336}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Hayk-new_LeftUpLeg
+      parentName: Hayk-new_Hips
+      position: {x: -0.1004803, y: 0, z: 0}
+      rotation: {x: 0.04652866, y: 0.0013604199, z: -0.011250178, w: 0.9988527}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Hayk-new_LeftLeg
+      parentName: Hayk-new_LeftUpLeg
+      position: {x: -0, y: -0.48154396, z: 0}
+      rotation: {x: 0.038853314, y: -0.009840918, z: 0.08554361, w: 0.9955279}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Hayk-new_LeftFoot
+      parentName: Hayk-new_LeftLeg
+      position: {x: -0, y: -0.4085661, z: 0}
+      rotation: {x: -0.090534486, y: -0.12137402, z: -0.041924123, w: 0.98758}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Hayk-new_LeftToeBase
+      parentName: Hayk-new_LeftFoot
+      position: {x: -0, y: -0.0653122, z: 0.15072046}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Hayk-new_RightUpLeg
+      parentName: Hayk-new_Hips
+      position: {x: 0.1004803, y: 0, z: 0}
+      rotation: {x: 0.037285212, y: -0.012614067, z: 0.08312755, w: 0.9957613}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Hayk-new_RightLeg
+      parentName: Hayk-new_RightUpLeg
+      position: {x: -0, y: -0.48154396, z: 0}
+      rotation: {x: 0.004810438, y: -0.005812949, z: -0.095898926, w: 0.9953625}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Hayk-new_RightFoot
+      parentName: Hayk-new_RightLeg
+      position: {x: -0, y: -0.4085661, z: 0}
+      rotation: {x: -0.050326437, y: 0.050432984, z: 0.0364476, w: 0.99679255}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Hayk-new_RightToeBase
+      parentName: Hayk-new_RightFoot
+      position: {x: -0, y: -0.0653122, z: 0.15072046}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
     armTwist: 0.5
     foreArmTwist: 0.5
     upperLegTwist: 0.5
@@ -87,10 +400,10 @@ ModelImporter:
     globalScale: 1
     rootMotionBoneName: 
     hasTranslationDoF: 0
-    hasExtraRoot: 0
+    hasExtraRoot: 1
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 2
+  animationType: 3
   humanoidOversampling: 1
   additionalBone: 0
   userData: 

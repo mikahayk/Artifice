@@ -224,7 +224,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Controller
       value: 
-      objectReference: {fileID: 9100000, guid: 7210a397f62d74d32a1fbf07dde19b46, type: 2}
+      objectReference: {fileID: 9100000, guid: 03ab417db713a445e897664b71183d08, type: 2}
     - target: {fileID: -404514236858080188, guid: 7d83f793a22d6437b8e51bb473ece09c,
         type: 3}
       propertyPath: m_StaticEditorFlags
